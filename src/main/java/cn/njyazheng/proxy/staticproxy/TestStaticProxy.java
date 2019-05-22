@@ -1,5 +1,7 @@
 package cn.njyazheng.proxy.staticproxy;
 
+import cn.njyazheng.proxy.UserDaoImpl;
+
 /**
  * 1.可以做到在不修改目标对象的功能前提下,对目标功能扩展.
  * 2.缺点:
