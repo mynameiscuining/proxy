@@ -9,6 +9,7 @@ import cn.njyazheng.proxy.UserDaoImpl;
  * 2.代理对象的生成,是利用JDK的API,动态的在内存中构建代理对象(需要我们指定创建
  * 代理对象/目标对象实现的接口的类型)
  * 3.动态代理也叫做:JDK代理,接口代理
+ * 4.缺点: 代理对象不需要实现接口,但是目标对象一定要实现接口,否则不能用动态代理
  *
  * JDK中生成代理对象的API
  * 代理类所在包:java.lang.reflect.Proxy
